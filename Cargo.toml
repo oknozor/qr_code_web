@@ -1,0 +1,12 @@
+[package]
+name = "qr_gen"
+version = "0.1.0"
+authors = ["okno <paul.delafosse@protonmail.com>"]
+edition = "2018"
+description = "A dummy webservice to generate string qr code"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+qrcode = "0.8"
+rocket = "0.4.2"
